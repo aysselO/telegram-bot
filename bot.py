@@ -69,7 +69,6 @@ async def photo_handler(message: Message):
 
 
 async def main():
-    threading.Thread(target=run_flask).start()
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
