@@ -67,15 +67,6 @@ async def sticker_handler(message: Message):
 async def photo_handler(message: Message):
     await message.answer("Классное фото!")
 
-# Запуск Flask-сервера для Render
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Bot is running!"
-
-def run_flask():
-    app.run(host="0.0.0.0", port=8080)
 
 async def main():
     threading.Thread(target=run_flask).start()
