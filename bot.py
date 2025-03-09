@@ -3,7 +3,7 @@ import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message
 
-TOKEN ='7581820794:AAE_sRTIzahZIU_SpRHlZ6xYjUu8MCZOeQQ '
+TOKEN ='7581820794:AAE_sRTIzahZIU_SpRHlZ6xYjUu8MCZOeQQ'
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
